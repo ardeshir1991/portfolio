@@ -38,7 +38,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/about">
             <a>
               <FaUser />
               {!sideBarActive && <span>About</span>}
@@ -46,7 +46,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/services">
             <a>
               <FaClipboardList />
               {!sideBarActive && <span>Services</span>}
@@ -54,7 +54,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/portfolio">
             <a>
               <FaBriefcase />
               {!sideBarActive && <span>Portfolio</span>}
@@ -62,7 +62,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link href="/">
+          <Link href="/contact">
             <a>
               <FaCommentDots />
               {!sideBarActive && <span>Contact</span>}
