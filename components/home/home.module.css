@@ -1,7 +1,16 @@
 .container{
     padding: 0 3rem;
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    min-height: 100vh;
+    background: var(--bg-black-900);
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    top: 0;
+    left: 270px;
+    right: 0;
+    position: fixed;
+        /* z-index: 0; */
     /* margin: auto; */
 }
 
@@ -26,7 +35,7 @@
 .info h2 span{
     font-family: Clicker;
     color: var(--skin-color);
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -71,6 +80,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 20px 0;
 }
 
 .homeImg::before{
@@ -78,8 +88,8 @@
     width: 80px;
     height: 80px;
     position: absolute;
-    right: 10px;
-    bottom: -20px;
+    right: 15%;
+    bottom: -10px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
 }
@@ -89,8 +99,8 @@
     width: 80px;
     height: 80px;
     position: absolute;
-    left: 10px;
-    top: -20px;
+    left: 15%;
+    top: -10px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
 }

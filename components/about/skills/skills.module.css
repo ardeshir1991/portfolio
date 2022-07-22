@@ -1,0 +1,52 @@
+.skills{
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.skills ul{
+    margin: 0;
+    list-style: none;
+    padding: 0 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.skills ul li div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.skills ul li div h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-black-900);
+    margin: 10px 0;
+}
+
+.skills ul li div span{
+    font-size: 14px;
+    color: var(--text-black-700);
+    font-weight: 400;
+}
+
+.percentage{
+    height: 5px;
+    background: var(--bg-black-50);
+    border-radius: 2px;
+}
+
+.percentage span{
+    background: var(--skin-color);
+    border-radius: 2px;
+    height: 5px;
+}

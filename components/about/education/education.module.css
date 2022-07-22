@@ -1,0 +1,71 @@
+.education{
+    width: 48%;
+    margin: 1%;
+}
+
+.title{
+    color: var(--text-black-900);
+    padding-left: 1rem;
+}
+
+.timeLine{
+    box-shadow: 0 0 20px rgba(48, 46, 77, .15);
+    background: var(--bg-black-100);
+    position: relative;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.timeLine ul{
+    list-style: none;
+    padding-left: 2rem;
+    border-left: 1px solid var(--skin-color);
+}
+
+.timeLine ul li{
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.circleDot{
+    position: absolute;
+    top: 0;
+    left: -2.5rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--skin-color);
+}
+
+.timeLine ul li:nth-child(3){
+    padding-bottom: 0;
+}
+
+.timeLine ul li h3{
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: var(--text-black-700);
+}
+
+.timeLine ul li h3 svg{
+    margin-right: 5px;
+}
+
+.timeLine ul li h4{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: var(--text-black-900);
+}
+
+.timeLine ul li p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+    text-align: justify;
+    padding-right: 1rem;
+}
