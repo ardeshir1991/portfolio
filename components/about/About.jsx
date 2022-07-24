@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./about.module.css";
-import Education from "./education/Education";
+import EducationExperiences from "./education and experiences/EducationExperiences";
 import PersonalInfo from "./personalInfo/PersonalInfo";
 import Skills from "./skills/Skills";
 
@@ -29,8 +29,8 @@ const About = () => {
           <div className={styles.info}>
             <PersonalInfo />
             <Skills />
-            <Education />
-            <Education />
+            <EducationExperiences title={"Education"} />
+            <EducationExperiences title={"Experiences"} />
           </div>
         </div>
       </div>
