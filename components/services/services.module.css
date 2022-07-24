@@ -1,0 +1,93 @@
+.container{
+    position: absolute;
+    left: 270px;
+    top: 0;
+    min-height: 100vh;
+    right: 0;
+    padding: 20px 3rem 40px;
+}
+
+.servicesTitle h1{
+    padding: 15px 0;
+    color: var(--text-black-900);
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 15px;
+}
+
+.servicesTitle h1::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: var(--skin-color);
+}
+
+.servicesItems ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.servicesItems ul li{
+    width: 32%;
+    background: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    padding: 30px 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all .3s ease;
+}
+
+.servicesItems ul li:hover{
+    box-shadow: 0 0 20px rgba(48, 46, 77, .16);
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--skin-color);
+    transition: all .3s ease;
+}
+
+.icon svg{
+    font-size: 40px;
+    transition: all .3s ease;
+}
+
+.servicesItems ul li:hover .icon{
+    background: var(--skin-color);
+    color: white;
+}
+
+.servicesItems ul li:hover .icon svg{
+    font-size: 25px;
+}
+
+.servicesItems ul li h4{
+    font-size: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+
+.servicesItems ul li p{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
+}

@@ -2,10 +2,10 @@ import React from "react";
 import styles from "./education.module.css";
 import { FaRegCalendarAlt } from "react-icons/fa";
 
-const Education = () => {
+const EducationExperiences = ({ title }) => {
   return (
     <div className={styles.education}>
-      <h3 className={styles.title}>Education</h3>
+      <h3 className={styles.title}>{title}</h3>
       <div className={styles.timeLine}>
         <ul>
           <li>
@@ -53,4 +53,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default EducationExperiences;
